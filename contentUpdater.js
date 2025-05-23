@@ -1,3 +1,5 @@
+import { Name, Mass, Radius, Phase, Proton, Electron, Neutron, MeltingPoint, BoilingPoint, OxidationState, IonizationEnthalpy, ElectronAffinity, ElectroNegativity, Density, DiscoveredBy, ElectronicConfiguration } from "./selectors.js";
+
 export function updateContentForG1(title, desc) {
     title.textContent = "G1 – Alkali Metals";
     desc.textContent = "Soft, shiny, highly reactive metals like lithium, sodium, and potassium. They have one valence electron, form +1 ions, and react vigorously with water. Commonly used in batteries, heat exchangers, and as reducing agents.";
@@ -133,4 +135,23 @@ export function updateContentForActinoid(title, desc) {
 export function updateContent(title, desc) {
     title.textContent = "Periodic Table";
     desc.textContent = "The periodic table organizes all known chemical elements by increasing atomic number and recurring chemical properties. It’s arranged in rows (periods) and columns (groups) that reflect electron configurations and element behavior. This layout helps predict element characteristics, bonding, and reactivity across metals, nonmetals, and metalloids.";
+}
+export function updateValues(element)
+{
+    Name.textContent = element.name;
+    Mass.textContent = element.Mass;
+    Radius.textContent = element.Radius;
+    Phase.textContent = element.Phase;
+    Proton.textContent = element.Proton;
+    Electron.textContent = element.Electron;
+    Neutron.textContent = element.Neutron;
+    MeltingPoint.textContent = element.MeltingPoint;
+    BoilingPoint.textContent = element.BoilingPoint;
+    OxidationState.textContent = element.OxidationState;
+    IonizationEnthalpy.textContent = element.IonizationEnthalpy;
+    ElectronAffinity.textContent = element.ElectronAffinity;
+    ElectroNegativity.textContent = element.ElectroNegativity;
+    Density.textContent = element.Density;
+    DiscoveredBy.textContent = element.DiscoveredBy;
+    ElectronicConfiguration.textContent = element.ElectronicConfiguration;
 }
