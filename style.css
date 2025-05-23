@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 5px;
+}
+
+.main-header {
+    background-color: #0d6efd;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.filter {
+    width: 940px;
+    margin: 0 auto 20px;
+    padding: 15px;
+    background-color: #60c5d1;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.filter-group h4 {
+    margin: 0 0 5px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.button-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.property{
+    font-style: oblique;
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: 2px solid #007bff;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    border : 2px solid #0056b3;   
+}
+
+button.active {
+    background-color: #0056b3;
+}
+
+.clear-button {
+    background-color: #dc3545;
+    padding: 5px 10px;
+    border: 2px solid #dc3545;
+    margin-top: 40px;
+}
+
+.clear-button:hover {
+    border : 2px solid #96101e;
+}
+
+.popup {
+    position: absolute;
+    top: 0;
+    left: -375px;
+    height: 140px;
+    width: 515px;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    padding: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.ptitle {
+    font-size: 25px;    
+    font-weight: bold;
+    color: #003366;
+    /* background-color: #ccc; */
+    margin-bottom: 3px;
+}
+
+.pdesc {
+    font-size: 14px;
+    /* background-color: #8aaaab; */
+}
+
+.pgrid{
+    display: grid;
+    height: 110px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6,1fr);
+} 
+
+.Discovered{
+    padding-left: 5px;
+    grid-column-start: 4;
+    grid-column-end: 7;  
+}
+
+.E_config{
+    grid-column-start: 2;
+    grid-column-end: 7;  
+}
+
+.element_value
+{
+    font-style: italic;
+    display: flex;
+    justify-content: left;
+}
+
+.element_property
+{
+    font-weight: bolder;
+    display: flex;
+    justify-content:left;
+    padding-left: 4px;
+}
+
+.textualpopup{
+    display: none;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(18, 50px);
+    gap: 4px;
+    /* background-color: #0056b3; */
+}
+
+.element {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.legend {
+    margin-top: 20px;
+}
+
+.alkali {
+    background-color: #e74c3c;
+}
+
+.alkaline {
+    background-color: #8e44ad;
+}
+
+.transition {
+    background-color: #3498db;
+}
+
+.post-transition {
+    background-color: #13589c;
+}
+
+.metalloids {
+    background-color: #16a085;
+}
+
+.nonmetals {
+    background-color: #f39c12;
+}
+
+.halogens {
+    background-color: #d35400;
+}
+
+.noble {
+    background-color: #f1c40f;
+}
+
+.lanthanoid {
+    background-color: #1abc9c;
+}
+
+.Actinoid {
+    background-color: #27ae60;
+}
+
+.unknown {
+    background-color: gray;
+}
+
+.lightgray{
+    background-color: lightgray;
+}
+
+.blank {
+    background-color: transparent;
+    border: none;
+}
+
+.lanth-actin {
+    margin-top: 15px;
+    /* padding-left: 20px; */
+}
+
+.lanth-actin .row {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 4px;
+}

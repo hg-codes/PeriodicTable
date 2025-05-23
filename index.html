@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Periodic Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <h1>Periodic Table of Elements</h1>
+    </header>
+
+    <div class="container">    
+        <div class="filter">
+            <div class="filter-group">
+                <h4>Group</h4>
+                <div class="button-row">
+                    <button id="G1">1</button>
+                    <button id="G2">2</button>
+                    <button id="G3">3</button>
+                    <button id="G4">4</button>
+                    <button id="G5">5</button>
+                    <button id="G6">6</button>
+                    <button id="G7">7</button>
+                    <button id="G8">8</button>
+                    <button id="G9">9</button>
+                    <button id="G10">10</button>
+                    <button id="G11">11</button>
+                    <button id="G12">12</button>
+                    <button id="G13">13</button>
+                    <button id="G14">14</button>
+                    <button id="G15">15</button>
+                    <button id="G16">16</button>
+                    <button id="G17">17</button>
+                    <button id="G18">18</button>
+                </div>
+            </div>
+        
+            <div class="filter-group">
+                <h4>Block</h4>
+                <div class="button-row">
+                    <button id="S">s</button>
+                    <button id="P">p</button>
+                    <button id="D">d</button>
+                    <button id="F">f</button>
+                </div>
+            </div>
+        
+            <div class="filter-group">
+                <h4>Period</h4>
+                <div class="button-row">
+                    <button id="P1">1</button>
+                    <button id="P2">2</button>
+                    <button id="P3">3</button>
+                    <button id="P4">4</button>
+                    <button id="P5">5</button>
+                    <button id="P6">6</button>
+                    <button id="P7">7</button>
+                    <button id="Planthanoid">lanthanoid</button>
+                    <button id="PActinoid">Actinoid</button>
+                </div>
+            </div>
+        
+            <div class="filter-group">
+                <h4>Classification</h4>
+                <div class="button-row">
+                    <button id="Metal">Metals</button>
+                    <button id="Non-Metal">Non-Metals</button>
+                </div>
+            </div>
+        
+            <div class="filter-group">
+                <button id="ClrFilter" class="clear-button">Clear Filter</button>
+            </div>
+        </div>
+        
+        <div class="element-box" style="position: relative;">
+            <div class="popup">
+                <div class="ptitle">Vanadium</div>
+                <div class="pdesc">
+                    <div class="pgrid">
+                        <div class="element_property">Mass</div>
+                        <div id="Mass" class="element_value">20u</div>
+                        <div class="element_property">Radius</div>
+                        <div id="Radius"class="element_value">200pm</div>
+                        <div class="element_property">Phase</div>
+                        <div id="Phase" class="element_value">solid</div>
+                        <div class="element_property">p+</div>
+                        <div id="Proton" class="element_value">32</div>
+                        <div class="element_property">e-</div>
+                        <div id="Electron" class="element_value">32</div>
+                        <div class="element_property">n</div>
+                        <div id="Neutron" class="element_value">32</div>
+                        <div class="element_property">MP</div>
+                        <div id="MeltingPoint" class="element_value">323</div>
+                        <div class="element_property">BP</div>
+                        <div id="BoilingPoint" class="element_value">311</div>
+                        <div class="element_property">OS</div>
+                        <div id="OxidationState" class="element_value">4</div>
+                        <div class="element_property">IE</div>
+                        <div id="IonizationEnthalpy" class="element_value">54</div>
+                        <div class="element_property">EA</div>
+                        <div id="ElectronAffinity" class="element_value">45</div>
+                        <div class="element_property">EN</div>
+                        <div id="ElectroNegativity" class="element_value">43</div>
+                        <div class="element_property">&rho;</div>
+                        <div id="Density" class="element_value">343</div>
+                        <div class="element_property">Founded By</div>
+                        <div id="DiscoveredBy" class="element_value Discovered">dfcvcvxccxcdcd</div>
+                        <div class="element_property">E.config</div>
+                        <div id="ElectronicConfiguration" class="element_value E_config">1s22p6</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popup textual"">
+                <div id="titletext" class="ptitle">Periodic Table</div>
+                <div id="desctext" class="pdesc">
+                    The periodic table organizes all known chemical elements by increasing atomic number and recurring chemical properties.
+                    Its arranged in rows (periods) and columns (groups) that reflect electron configurations and element behavior. This
+                    layout helps predict element characteristics, bonding, and reactivity across metals, nonmetals, and metalloids.
+                </div>
+            </div>
+
+        </div>
+
+        <div class="table">
+            <!-- First row -->
+            <div class="element nonmetals G1 P1">H<br>1</div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="element noble G18 P1">He<br>2</div>
+            <!-- Second row -->
+            <div class="element alkali G1 P2">Li<br>3</div>
+            <div class="element alkaline G2 P2">Be<br>4</div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="element metalloids G13 P2">B<br>5</div>
+            <div class="element nonmetals G14 P2">C<br>6</div>
+            <div class="element nonmetals G15 P2">N<br>7</div>
+            <div class="element nonmetals G16 P2">O<br>8</div>
+            <div class="element halogens G17 P2">F<br>9</div>
+            <div class="element noble G18 P2">Ne<br>10</div>
+            <!-- Third row -->
+            <div class="element alkali P3 G1">Na<br>11</div>
+            <div class="element alkaline P3 G2">Mg<br>12</div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="element post-transition P3 G13">Al<br>13</div>
+            <div class="element metalloids P3 G14">Si<br>14</div>
+            <div class="element nonmetals P3 G15">P<br>15</div>
+            <div class="element nonmetals P3 G16">S<br>16</div>
+            <div class="element halogens P3 G17">Cl<br>17</div>
+            <div class="element noble P3 G18">Ar<br>18</div>
+            <!-- Fourth row -->
+            <div class="element alkali P4 G1">K<br>19</div>
+            <div class="element alkaline P4 G2">Ca<br>20</div>
+            <div class="element transition P4 G3">Sc<br>21</div>
+            <div class="element transition P4 G4">Ti<br>22</div>
+            <div class="element transition P4 G5">V<br>23</div>
+            <div class="element transition P4 G6">Cr<br>24</div>
+            <div class="element transition P4 G7">Mn<br>25</div>
+            <div class="element transition P4 G8">Fe<br>26</div>
+            <div class="element transition P4 G9">Co<br>27</div>
+            <div class="element transition P4 G10">Ni<br>28</div>
+            <div class="element transition P4 G11">Cu<br>29</div>
+            <div class="element transition P4 G12">Zn<br>30</div>
+            <div class="element post-transition P4 G13">Ga<br>31</div>
+            <div class="element metalloids P4 G14">Ge<br>32</div>
+            <div class="element metalloids P4 G15">As<br>33</div>
+            <div class="element nonmetals P4 G16">Se<br>34</div>
+            <div class="element halogens P4 G17">Br<br>35</div>
+            <div class="element noble P4 G18">Kr<br>36</div>
+
+            <!-- Fifth row -->
+            <div class="element alkali P5 G1">Rb<br>37</div>
+            <div class="element alkaline P5 G2">Sr<br>38</div>
+            <div class="element transition P5 G3">Y<br>39</div>
+            <div class="element transition P5 G4">Zr<br>40</div>
+            <div class="element transition P5 G5">Nb<br>41</div>
+            <div class="element transition P5 G6">Mo<br>42</div>
+            <div class="element transition P5 G7">Tc<br>43</div>
+            <div class="element transition P5 G8">Ru<br>44</div>
+            <div class="element transition P5 G9">Rh<br>45</div>
+            <div class="element transition P5 G10">Pd<br>46</div>
+            <div class="element transition P5 G11">Ag<br>47</div>
+            <div class="element transition P5 G12">Cd<br>48</div>
+            <div class="element post-transition P5 G13">In<br>49</div>
+            <div class="element post-transition P5 G14">Sn<br>50</div>
+            <div class="element metalloids P5 G15">Sb<br>51</div>
+            <div class="element metalloids P5 G16">Te<br>52</div>
+            <div class="element halogens P5 G17">I<br>53</div>
+            <div class="element noble P5 G18">Xe<br>54</div>
+
+            <!-- Sixth row -->
+            <div class="element alkali P6 G1">Cs<br>55</div>
+            <div class="element alkaline P6 G2">Ba<br>56</div>
+            <div class="element lanthanoid P6 G3">La<br>57</div>
+            <div class="element transition P6 G4">Hf<br>72</div>
+            <div class="element transition P6 G5">Ta<br>73</div>
+            <div class="element transition P6 G6">W<br>74</div>
+            <div class="element transition P6 G7">Re<br>75</div>
+            <div class="element transition P6 G8">Os<br>76</div>
+            <div class="element transition P6 G9">Ir<br>77</div>
+            <div class="element transition P6 G10">Pt<br>78</div>
+            <div class="element transition P6 G11">Au<br>79</div>
+            <div class="element transition P6 G12">Hg<br>80</div>
+            <div class="element post-transition P6 G13">Tl<br>81</div>
+            <div class="element post-transition P6 G14">Pb<br>82</div>
+            <div class="element post-transition P6 G15">Bi<br>83</div>
+            <div class="element post-transition P6 G16">Po<br>84</div>
+            <div class="element halogens P6 G17">At<br>85</div>
+            <div class="element noble P6 G18">Rn<br>86</div>
+
+            <!-- Seventh row -->
+            <div class="element alkali P7 G1">Fr<br>87</div>
+            <div class="element alkaline P7 G2">Ra<br>88</div>
+            <div class="element Actinoid P7 G3">Ac<br>89</div>
+            <div class="element transition P7 G4">Rf<br>104</div>
+            <div class="element transition P7 G5">Db<br>105</div>
+            <div class="element transition P7 G6">Sg<br>106</div>
+            <div class="element transition P7 G7">Bh<br>107</div>
+            <div class="element transition P7 G8">Hs<br>108</div>
+            <div class="element transition P7 G9">Mt<br>109</div>
+            <div class="element transition P7 G10">Ds<br>110</div>
+            <div class="element transition P7 G11">Rg<br>111</div>
+            <div class="element transition P7 G12">Cn<br>112</div>
+            <div class="element unknown P7 G13">Nh<br>113</div>
+            <div class="element unknown P7 G14">Fl<br>114</div>
+            <div class="element unknown P7 G15">Mc<br>115</div>
+            <div class="element unknown P7 G16">Lv<br>116</div>
+            <div class="element unknown P7 G17">Ts<br>117</div>
+            <div class="element unknown P7 G18">Og<br>118</div>
+
+        </div>
+
+        <div class="lanth-actin">
+            <!-- Lanthanides row -->
+            <div class="row">
+                <div class="element lanthanoid P6 G3">Ce<br>58</div>
+                <div class="element lanthanoid P6 G3">Pr<br>59</div>
+                <div class="element lanthanoid P6 G3">Nd<br>60</div>
+                <div class="element lanthanoid P6 G3">Pm<br>61</div>
+                <div class="element lanthanoid P6 G3">Sm<br>62</div>
+                <div class="element lanthanoid P6 G3">Eu<br>63</div>
+                <div class="element lanthanoid P6 G3">Gd<br>64</div>
+                <div class="element lanthanoid P6 G3">Tb<br>65</div>
+                <div class="element lanthanoid P6 G3">Dy<br>66</div>
+                <div class="element lanthanoid P6 G3">Ho<br>67</div>
+                <div class="element lanthanoid P6 G3">Er<br>68</div>
+                <div class="element lanthanoid P6 G3">Tm<br>69</div>
+                <div class="element lanthanoid P6 G3">Yb<br>70</div>
+                <div class="element lanthanoid P6 G3">Lu<br>71</div>
+
+            </div>
+            <!-- Actinides row -->
+            <div class="row">
+                <div class="element Actinoid P7 G3">Th<br>90</div>
+                <div class="element Actinoid P7 G3">Pa<br>91</div>
+                <div class="element Actinoid P7 G3">U<br>92</div>
+                <div class="element Actinoid P7 G3">Np<br>93</div>
+                <div class="element Actinoid P7 G3">Pu<br>94</div>
+                <div class="element Actinoid P7 G3">Am<br>95</div>
+                <div class="element Actinoid P7 G3">Cm<br>96</div>
+                <div class="element Actinoid P7 G3">Bk<br>97</div>
+                <div class="element Actinoid P7 G3">Cf<br>98</div>
+                <div class="element Actinoid P7 G3">Es<br>99</div>
+                <div class="element Actinoid P7 G3">Fm<br>100</div>
+                <div class="element Actinoid P7 G3">Md<br>101</div>
+                <div class="element Actinoid P7 G3">No<br>102</div>
+                <div class="element Actinoid P7 G3">Lr<br>103</div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+<script type="module" src="script.js"></script>
+</html>

@@ -1,0 +1,32 @@
+export const G1 = document.querySelectorAll(".G1");
+export const G2 = document.querySelectorAll(".G2");
+export const G3 = document.querySelectorAll(".G3");
+export const G4 = document.querySelectorAll(".G4");
+export const G5 = document.querySelectorAll(".G5");
+export const G6 = document.querySelectorAll(".G6");
+export const G7 = document.querySelectorAll(".G7");
+export const G8 = document.querySelectorAll(".G8");
+export const G9 = document.querySelectorAll(".G9");
+export const G10 = document.querySelectorAll(".G10");
+export const G11 = document.querySelectorAll(".G11");
+export const G12 = document.querySelectorAll(".G12");
+export const G13 = document.querySelectorAll(".G13");
+export const G14 = document.querySelectorAll(".G14");
+export const G15 = document.querySelectorAll(".G15");
+export const G16 = document.querySelectorAll(".G16");
+export const G17 = document.querySelectorAll(".G17");
+export const G18 = document.querySelectorAll(".G18");
+
+export const P1 = document.querySelectorAll(".P1");
+export const P2 = document.querySelectorAll(".P2");
+export const P3 = document.querySelectorAll(".P3");
+export const P4 = document.querySelectorAll(".P4");
+export const P5 = document.querySelectorAll(".P5");
+export const P6 = document.querySelectorAll(".P6");
+export const P7 = document.querySelectorAll(".P7");
+
+export const lanthanoid = document.querySelectorAll(".lanthanoid");
+export const actinoid = document.querySelectorAll(".Actinoid");
+export const Non_metal = document.querySelectorAll(".nonmetals");
+export const metalloid = document.querySelectorAll(".metalloids");
+export const elements = document.querySelectorAll(".element");
