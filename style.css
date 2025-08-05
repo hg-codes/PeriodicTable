@@ -238,3 +238,57 @@ button.active {
     gap: 4px;
     margin-bottom: 4px;
 }
+
+.unit-legend {
+    width: 150px;
+    position: absolute;
+    top: 280px;
+    left: 50px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.unit-legend h4 {
+    margin: 0 0 10px 0;
+    font-size: 1.1rem;
+    color: #003366;;
+}
+
+.unit-legend ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.unit-legend li {
+    font-size: 0.8rem;
+    line-height: 1.6;
+}
+
+.Alias-legend {
+    width: 140px;
+    position: absolute;
+    top: 220px;
+    right: 50px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.Alias-legend h4 {
+    margin: 0 0 10px 0;
+    font-size: 1.1rem;
+    color: #003366;;
+}
+
+.Alias-legend ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Alias-legend li {
+    font-size: 0.8rem;
+    line-height: 1.6;
+}
